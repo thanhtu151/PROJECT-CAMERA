@@ -1,0 +1,13 @@
+numpy==1.26.4
+opencv-python==4.8.1.78
+ultralytics==8.3.0
+torch==2.3.1+cu121; platform_system=="Windows"
+torchvision==0.18.1+cu121; platform_system=="Windows"
+torchaudio==2.3.1+cu121; platform_system=="Windows"
+-f https://download.pytorch.org/whl/cu121
+torchreid==0.2.5
+insightface==0.7.3
+onnxruntime-gpu==1.17.1
+albumentations==1.4.0
+qudida==0.0.4
+pillow>=10.3.0

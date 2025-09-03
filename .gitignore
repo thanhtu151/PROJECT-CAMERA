@@ -1,0 +1,42 @@
+# ---- Python cache ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ---- Virtual envs ----
+.venv/
+venv*/
+env*/
+ENV*/
+
+# ---- IDE/editor ----
+.vscode/
+.idea/
+
+# ---- Logs & outputs ----
+logs/
+snapshots/
+*.jsonl
+*.log
+
+# ---- Datasets (giữ index & metadata, bỏ ảnh gốc) ----
+dataset/faces/
+dataset/**/*.jpg
+dataset/**/*.jpeg
+dataset/**/*.png
+!dataset/metadata.csv
+!dataset/face_index.npz
+
+# ---- Models / weights ----
+*.pt
+*.onnx
+*.engine
+
+# ---- YOLO/Ultralytics outputs ----
+runs/
+weights/
+
+# ---- OS cruft ----
+Thumbs.db
+.DS_Store
